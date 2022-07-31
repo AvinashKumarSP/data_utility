@@ -1,0 +1,19 @@
+{
+  "type" : "record",
+  "name" : "departments_schema",
+  "namespace" : "com.example.avro",
+  "fields" : [ {
+    "name" : "Id",
+    "type" : "int",
+    "doc"  : "Department ID"
+  }, {
+    "name" : "DirectorateID",
+    "type" : "int",
+    "doc"  : "Directorate ID"
+  }, {
+    "name" : "Name",
+    "type" : "string",
+    "doc"  : "Department Name"
+  } ],
+  "doc:" : "A basic schema for scottish departments"
+}
